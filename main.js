@@ -1,9 +1,8 @@
 let width, height, app;
 
 document.addEventListener('DOMContentLoaded', () => {
-    width = window.innerWidth
-    height = window.innerHeight
-
+    width = window.innerWidth;
+    height = window.innerHeight;
 
     app = new PIXI.Application(
         {
